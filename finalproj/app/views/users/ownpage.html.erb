@@ -1,17 +1,14 @@
-<h3>User</h3>
-<p>Name: <%= @user.name if @user.name %></p>
+<h3>User Info</h3>
+
+<p>Name: <%= @user.name  %> </p>
+
+
 <p>Email: <%= @user.email if @user.email %></p>
-<p> <%= @user.posts.each do |t| %>
-	Posts: <%= t.title %>
-	Content: <%= t.content %> </p>
-	<% end %>
-<p>
-<%= button_to "Create New Post!!", posts_create_path, method: :get %>
-	
-</p>
-
-<p> <%= @user.boards.each do |t| %>
-	Boards: <%= t.name %> </p>
+<p>Points: <%= @user.point %> </p>
+<p>Joined: <%= @user.created_at %> </p>
+<h2> Posts </h2>
+<p> <% @user.posts.where(parent_id: nil).each do |t| %>
+	<%= link_to t.title, posts_show_path(t.id) %>
 	<% end %>
 
-	<%= button_to "Create New Board!!", boards_create_path, method: :get %>
+

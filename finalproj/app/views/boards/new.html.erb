@@ -1,4 +1,4 @@
-<%= simple_form_for @board, url: boards_create_path do |f| %>
+<%= simple_form_for @board, url: boards_index_path do |f|%>
 <%= f.input :name , label:'Your board name please' %>
 <%= f.button :submit %>
 <% end %>

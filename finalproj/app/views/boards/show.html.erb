@@ -1,0 +1,17 @@
+<h1> <%= @board.name %> </h1>
+
+<% @board.posts.where(parent_id: nil).each do |p|%>
+	<%= link_to p.title, posts_show_path(id: p.id) %>
+	<br>
+<% end %>
+<!-- for some reason I cannot get this to work with button_to -->
+<% if current_user %>
+	<%= link_to "Create New Post", posts_new_path(board: @board.id, comment: :false), method: :get%>
+	<% if current_user.boards.include?(@board) %>
+		<%= link_to "Unsubscribe", board_unsubscribe_path(board: @board.id), method: :patch %>	
+	<% else %>
+		<%= link_to "Subscribe", board_subscribe_path(board: @board.id), method: :patch %>
+	<% end %>
+<% end %>
+
+<%= link_to "Home", home_path %>

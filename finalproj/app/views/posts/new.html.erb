@@ -1,0 +1,10 @@
+<%= @current_board.name %>
+<%= simple_form_for @post, url: boards_show_path(id: @current_board, comment: params[:comment], parent_id: params[:parent_id]) do |f| %>
+<!-- some really jank shit here -->
+<% if params[:comment] == 'false'%>
+<%= f.input :title , label:'Your post title please' %>
+<% else %>
+<% end %>
+<%= f.input :content , label:'Your post content please', size: '60*12' %>
+<%= f.button :submit %>
+<% end %>

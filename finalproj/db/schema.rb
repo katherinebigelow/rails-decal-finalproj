@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171112222824) do
+ActiveRecord::Schema.define(version: 20171123061033) do
 
   create_table "achievements", force: :cascade do |t|
     t.string "name"
@@ -20,18 +20,36 @@ ActiveRecord::Schema.define(version: 20171112222824) do
 
   create_table "boards", force: :cascade do |t|
     t.string "name"
-    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "boards_users", id: false, force: :cascade do |t|
+    t.integer "board_id"
+    t.integer "user_id"
+    t.index ["board_id"], name: "index_boards_users_on_board_id"
+    t.index ["user_id"], name: "index_boards_users_on_user_id"
+  end
+
+  create_table "favorites", force: :cascade do |t|
+    t.integer "post_id"
+    t.integer "user_id"
+    t.index ["post_id"], name: "index_favorites_on_post_id"
+    t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.text "content"
     t.integer "board_id"
+    t.integer "parent_id"
+    t.integer "likes"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["board_id"], name: "index_posts_on_board_id"
+    t.index ["parent_id"], name: "index_posts_on_parent_id"
+    t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -48,7 +66,9 @@ ActiveRecord::Schema.define(version: 20171112222824) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
-    t.integer "point"
+    t.integer "point", default: 0
+    t.integer "board_id"
+    t.index ["board_id"], name: "index_users_on_board_id"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

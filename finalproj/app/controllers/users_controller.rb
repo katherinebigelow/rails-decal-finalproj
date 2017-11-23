@@ -4,7 +4,6 @@ class UsersController < ApplicationController
 	end
 
 	def ownpage
-		@user = User.find(params[:id])
-		
+		@user = User.find(params[:user_id])	
 	end
 end
