@@ -23,6 +23,7 @@ Likes: <%= @post.likes %>
 	Likes: <%= p.likes %>
 	<% if current_user %>
 		<%= p.users.length %>
+		<!-- debug: for some reason user_id of post seems to change when you switch users, and posts can't be liked -->
 		<%= @post.user_id %>
 		<%= current_user.id %>
 		<% if p.users.include?(current_user) or @post.user_id = current_user.id %>

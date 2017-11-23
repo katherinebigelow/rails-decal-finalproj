@@ -8,6 +8,7 @@
 <% if current_user %>
 	<%= link_to "Create New Post", posts_new_path(board: @board.id, comment: :false), method: :get%>
 	<% if current_user.boards.include?(@board) %>
+		<!-- does not work for some reason, board still shows up on home screen -->
 		<%= link_to "Unsubscribe", board_unsubscribe_path(board: @board.id), method: :patch %>	
 	<% else %>
 		<%= link_to "Subscribe", board_subscribe_path(board: @board.id), method: :patch %>
