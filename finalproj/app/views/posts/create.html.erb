@@ -1,0 +1,5 @@
+<%= simple_form_for @post, url: posts_create_path do |f| %>
+<%= f.input :title , label:'Your post title please' %>
+<%= f.input :content , label:'Your post content please', size: '60*12' %>
+<%= f.button :submit %>
+<% end %>

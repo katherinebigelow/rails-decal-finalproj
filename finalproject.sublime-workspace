@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "finalproj/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1150,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/views/posts/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<h3> <%= @post.title %> </h3>"
+			}
+		},
+		{
+			"file": "finalproj/app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 629,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/db/migrate/20171123060928_create_favorites.rb",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/db/migrate/20171112222735_create_posts.rb",
+			"settings":
+			{
+				"buffer_size": 314,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/views/users/ownpage.html.erb",
+			"settings":
+			{
+				"buffer_size": 311,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/views/users/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 66,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 143,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/models/favorite.rb",
+			"settings":
+			{
+				"buffer_size": 76,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "finalproj/app/controllers/posts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1091,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/views/boards/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<% @board.posts.each do |p| %>"
+			}
+		},
+		{
+			"file": "finalproj/app/models/post.rb",
+			"settings":
+			{
+				"buffer_size": 258,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/models/board.rb",
+			"settings":
+			{
+				"buffer_size": 85,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/controllers/boards_controller.rb",
+			"settings":
+			{
+				"buffer_size": 772,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalproj/app/controllers/favorites_controller.rb",
+			"settings":
+			{
+				"buffer_size": 54,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jeffrey/railsdecal",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/controllers",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/controllers/concerns",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/models",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/home",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/layouts",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/pokemons",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/trainers",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/config",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/db",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/controllers",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/models",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/boards",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/devise",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/devise/registrations",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/home",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/layouts",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/posts",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/users",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/config",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate"
+	],
+	"file_history":
+	[
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/posts/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/boards/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171123061033_create_join_table_board_user.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171120063210_create_join_table_board_user.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/boards/index.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/controllers/home_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/models/user.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171120063241_create_join_table_post_user.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/models/board.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/controllers/registrations_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/controllers/users_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/schema.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/devise/registrations/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/users/ownpage.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/models/post.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/app/views/home/index.html.erb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171112222735_create_posts.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171112222151_create_boards.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/controllers/pokemons_controller.rb",
+		"/C/Users/Jeffrey/cs61a/homework/hw13/hw13.sql",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171112222017_add_point_to_users.rb",
+		"/C/Users/Jeffrey/railsdecal/rails-decal-finalproj/finalproj/db/migrate/20171112221546_devise_create_users.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/config/routes.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/pokemons/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/home/index.html.erb",
+		"/C/Users/Jeffrey/cs61a/homework/hw12/hw12.sql",
+		"/C/Users/Jeffrey/cs61a/lab/lab12/fa17data.sql",
+		"/C/Users/Jeffrey/cs61a/lab/lab12/sp17data.sql",
+		"/C/Users/Jeffrey/cs61a/lab/lab12/lab12_extra.sql",
+		"/C/Users/Jeffrey/cs61a/projects/scheme/tests.scm",
+		"/C/Users/Jeffrey/emlab.py",
+		"/C/Users/Jeffrey/cs61a/projects/scheme/scheme.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab12/lab12.sql",
+		"/C/Users/Jeffrey/cs61a/lab/lab11/lab11.py",
+		"/C/Users/Jeffrey/pie/old_scoreboard.html",
+		"/C/Users/Jeffrey/cs61a/homework/hw11/hw11.scm",
+		"/C/Users/Jeffrey/cs61a/projects/scheme/questions.scm",
+		"/C/Users/Jeffrey/cs61a/projects/scheme/scheme_reader.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab10/expr.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab10/repl.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab10/utils.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab10/reader.py",
+		"/C/Users/Jeffrey/cs61a/homework/hw10/hw10.scm",
+		"/C/Users/Jeffrey/cs61a/homework/hw09/hw09.scm",
+		"/C/Users/Jeffrey/cs61a/lab/lab09/lab09.scm",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/controllers/trainers_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/layouts/application.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/trainers/show.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/ANSWERS.md",
+		"/C/Users/Jeffrey/railsdecal/fa17-lec6-demo/app/controllers/restaurants_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lec6-demo/app/controllers/reviews_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lec6-demo/app/views/restaurants/show.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/models/pokemon.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/db/schema.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/db/seeds.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/controllers/home_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/views/trainers/index.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/app/models/trainer.rb",
+		"/C/Users/Jeffrey/cs61a/lab/lab08/lab08.py",
+		"/C/Users/Jeffrey/cs61a/projects/ants/ants.py",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/config/environments/development.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-proj1/Gemfile",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/app/views/trainers/index.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/controllers/pages_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/db/schema.rb",
+		"/C/Users/Jeffrey/cs61a/homework/hw08/hw08.py",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/ANSWERS.md",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/config/routes.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/app/models/pokemon.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/app/models/trainer.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-lab2/app/controllers/trainers_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/config/routes.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw3/ANSWERS.md",
+		"/C/Users/Jeffrey/cs61a/lab/lab07/lab07_extra.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab07/lab07.py",
+		"/C/Users/Jeffrey/cs61a/lab/lab06/classes.py",
+		"/C/Users/Jeffrey/cs61a/homework/hw07/hw07.py",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/people/show.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/views/messages/_message.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/assets/stylesheets/application.scss",
+		"/C/Users/Jeffrey/bearchats/app/controllers/rooms_controller.rb",
+		"/C/Users/Jeffrey/bearchats/app/channels/application_cable/connection.rb",
+		"/C/Users/Jeffrey/bearchats/app/channels/application_cable/channel.rb",
+		"/C/Users/Jeffrey/bearchats/app/channels/rooms_channel.rb",
+		"/C/Users/Jeffrey/bearchats/app/views/layouts/application.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/assets/javascripts/channels/rooms.coffee",
+		"/C/Users/Jeffrey/bearchats/app/views/rooms/show.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/models/room.rb",
+		"/C/Users/Jeffrey/bearchats/app/helpers/application_helper.rb",
+		"/C/Users/Jeffrey/bearchats/app/controllers/messages_controller.rb",
+		"/C/Users/Jeffrey/bearchats/app/jobs/message_broadcast_job.rb",
+		"/C/Users/Jeffrey/bearchats/app/models/message.rb",
+		"/C/Users/Jeffrey/bearchats/app/models/user.rb",
+		"/C/Users/Jeffrey/bearchats/config/routes.rb",
+		"/C/Users/Jeffrey/bearchats/Gemfile",
+		"/C/Users/Jeffrey/bearchats/app/assets/javascripts/application.js",
+		"/C/Users/Jeffrey/bearchats/config/cable.yml",
+		"/C/Users/Jeffrey/bearchats/app/controllers/application_controller.rb",
+		"/C/Users/Jeffrey/bearchats/app/assets/javascripts/cable.js",
+		"/C/Users/Jeffrey/bearchats/app/views/rooms/new.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/views/rooms/_room.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/views/rooms/index.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/views/devise/passwords/new.html.erb",
+		"/C/Users/Jeffrey/bearchats/app/assets/stylesheets/application.css",
+		"/C/Users/Jeffrey/calhacks/App.js",
+		"/C/Users/Jeffrey/AwesomeProject/node_modules/react-native-scripts/build/bin/crna-entry.js",
+		"/C/Users/Jeffrey/calhacks_app/node_modules/react-native-scripts/build/bin/crna-entry.js",
+		"/C/Users/Jeffrey/calhacks_app/node_modules/babel-runtime/helpers/_class-call-check.js",
+		"/C/Users/Jeffrey/calhacks_app/node_modules/react-native-scripts/build/bin/crna-entry.js.map",
+		"/C/Users/Jeffrey/calhacks_app/node_modules/babel-runtime/core-js/object/get-prototype-of.js",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/people/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/controllers/people_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/people/index.html.erb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/config/routes.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/controllers/todos_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/views/pages/home.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/views/todos/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/posts/_form.html.erb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/posts/show.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw3/app/controllers/teachers_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/controllers/posts_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/views/posts/new.html.erb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw2/app/controllers/pages_controller.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/models/user.rb",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/app/models/cat.rb",
+		"/C/Users/Jeffrey/cs61a/projects/hog/hog.py",
+		"/C/Users/Jeffrey/railsdecal/fa17-hw4/db/schema.rb",
+		"/C/Users/Jeffrey/railsdecal/migration_app/app/assets/javascripts/application.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eval_all",
+			"error",
+			"(exit)",
+			"complete_eval",
+			"scheme_apply",
+			"complete_",
+			"eval_call",
+			"complete_eval",
+			"scheme_optimized_eval",
+			"eval_all",
+			"lambda",
+			"do_if_fo",
+			"eval_all",
+			"scheme_apply",
+			"eval_call",
+			"scheme_optimized_eval",
+			"scheme_apply",
+			"apply",
+			"self_evalu",
+			"scheme_apply",
+			"scheme_eval",
+			"scheme_apply",
+			"handleTime",
+			"define-macro",
+			"scheme_eval",
+			"Thunk",
+			"progress",
+			"btn sc",
+			"text-center",
+			"make_call_frame",
+			"scheme_eval",
+			"eval_all",
+			"self.body",
+			"scheme_eval",
+			"eval_all",
+			"make_child",
+			"make_call",
+			"make_child_frame",
+			"make_ca",
+			"make_call",
+			"userdefined",
+			"make_call_frame",
+			"make_child_frame",
+			"make_call",
+			"make_child_frame",
+			"lambda",
+			"eval_all",
+			"scheme_eval",
+			"do_define_form",
+			"scheme_eval",
+			"do_define_Form",
+			"define",
+			"frame",
+			"environ",
+			"scheme_apply",
+			"scheme_eval",
+			"scheme_apply",
+			"eval_cal",
+			"eval_ca",
+			"pair",
+			"apply",
+			"score-gold",
+			"gold-total-score",
+			"impostor",
+			"\")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "finalproj/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "finalproj/app/views/posts/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<h3> <%= @post.title %> </h3>",
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "finalproj/app/views/home/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "finalproj/db/migrate/20171123060928_create_favorites.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "finalproj/db/migrate/20171112222735_create_posts.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "finalproj/app/views/users/ownpage.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "finalproj/app/views/users/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "finalproj/app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "finalproj/app/models/favorite.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "finalproj/app/controllers/posts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1006,
+								1006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "finalproj/app/views/boards/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<% @board.posts.each do |p| %>",
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "finalproj/app/models/post.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "finalproj/app/models/board.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "finalproj/app/controllers/boards_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "finalproj/app/controllers/favorites_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "finalproject.sublime-project",
+	"replace":
+	{
+		"height": 53.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

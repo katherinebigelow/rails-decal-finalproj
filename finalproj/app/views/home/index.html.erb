@@ -1,0 +1,29 @@
+<h1> Welcome to the message board! </h1>
+<p>
+	
+</p>
+
+
+
+<% if current_user %>
+<%= button_to 'Logout', destroy_user_session_path, method: :delete %>
+<% else %>
+<%= button_to "Sign up for free", new_user_registration_path, method: :get %>
+<p>
+	
+</p>
+<%= button_to "Sign in", new_user_session_path %>
+<% end %>
+
+<% if current_user%>
+<h2> My Boards </h2>
+<% current_user.boards.each do |t| %>
+	 <%= link_to t.name, boards_show_path(t.id) %> 
+	</br>
+	<% end %>
+<% end %>
+<%= link_to "See all boards", boards_index_path %>
+</br>
+<% if current_user %>
+<%= link_to "View my profile", ownpage_path(:user_id => current_user.id) %>
+<% end %>
