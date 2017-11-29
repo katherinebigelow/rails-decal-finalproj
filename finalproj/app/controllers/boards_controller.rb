@@ -13,11 +13,12 @@ class BoardsController < ApplicationController
 	end
 
 	def index
-		@boards = Board.all
+		@boards = Board.page(params[:page])
 	end
 
 	def show
 		@board = Board.find(params[:id])
+		@posts =  @board.posts.where(parent_id: nil).page(params[:page])
 	end
 
 	def subscribe
@@ -38,7 +39,7 @@ class BoardsController < ApplicationController
 		redirect to 'root'
 	end
 
-	private 
+	private
 
 	def board_params
 		params.require(:board).permit(:name)

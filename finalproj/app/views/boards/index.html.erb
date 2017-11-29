@@ -1,4 +1,10 @@
+<%= stylesheet_link_tag    'login', media: 'all', 'data-turbolinks-track': 'reload' %>
 
+<h1> All Boards</h1>
+
+ <%= link_to "Home", home_path %>
+<hr>
+</br>
 <% @boards.each do |b|%>
 <%= link_to b.name, boards_show_path(b.id) %>
 </br>
@@ -6,3 +12,5 @@
 <% if current_user %>
 <%= button_to "Create New Board!", boards_new_path, method: :get %>
 <% end %>
+</br>
+<%= paginate @boards %>

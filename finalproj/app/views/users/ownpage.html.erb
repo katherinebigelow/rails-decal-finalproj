@@ -8,17 +8,18 @@
 <p>Points: <%= @user.point %> </p>
 <p>Joined: <%= @user.created_at %> </p>
 <h2> Posts </h2>
-<p> <% @user.posts.where(parent_id: nil).each do |t| %>
-	<%= link_to t.title, posts_show_path(t.id) %>
+<p> <% @userPosts.each do |t| %>
+	<%= link_to t.title, posts_show_path(t.id) %> </br>
 	<% end %>
+	<%=paginate @userPosts%>
 </br>
 <h2>Achievements</h2>
 <% if @user.achievements.length == 0%>
 <p>No achievements unlocked yet!</p>
 <%end%>
 <% @user.achievements.each do |t| %>
-	<%= t.name %>
-	<h6> <%= t.description %> </h6>
+	<p><i><%= t.name %></i></p>
+	<h6><i> <%= t.description %> </i></h6>
 	<% end %>
 </br>
 <%= link_to "Home", home_path %>

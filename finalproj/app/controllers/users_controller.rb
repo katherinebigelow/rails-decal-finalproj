@@ -4,6 +4,7 @@ class UsersController < ApplicationController
 	end
 
 	def ownpage
-		@user = User.find(params[:user_id])	
+		@user = User.find(params[:user_id])
+		@userPosts = @user.posts.where(parent_id: nil).page(params[:page])
 	end
 end
