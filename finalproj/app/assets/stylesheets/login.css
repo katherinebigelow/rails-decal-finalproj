@@ -1,0 +1,18 @@
+
+body {
+   position: relative;
+   width: 100%;
+   display: block;
+   margin-top: 50px;
+ }
+
+ body > *  {
+   margin: auto;
+   width: 500px;
+   display: block;
+   overflow: auto;
+ }
+
+ body > script {
+   display: none
+ }
