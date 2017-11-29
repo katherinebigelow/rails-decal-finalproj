@@ -1,29 +1,38 @@
-<h1> Welcome to the message board! </h1>
-<p>
-	
-</p>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
 
-
-<% if current_user %>
-<%= button_to 'Logout', destroy_user_session_path, method: :delete %>
-<% else %>
-<%= button_to "Sign up for free", new_user_registration_path, method: :get %>
-<p>
-	
-</p>
-<%= button_to "Sign in", new_user_session_path %>
-<% end %>
+<div id = "header">
+	<h1 align = "center">Welcome to the message board! </h1>
+</div>
+<body>
 
 <% if current_user%>
-<h2> My Boards </h2>
-<% current_user.boards.each do |t| %>
-	 <%= link_to t.name, boards_show_path(t.id) %> 
-	</br>
+<div class="colmask leftmenu">
+	<div class="colleft">
+		<div class="col1">
+		<h2> My Boards </h2>
+		<% current_user.boards.each do |t| %>
+			 <%= link_to t.name, boards_show_path(t.id) %>
+			</br>
+		<% end %>
 	<% end %>
-<% end %>
-<%= link_to "See all boards", boards_index_path %>
-</br>
-<% if current_user %>
-<%= link_to "View my profile", ownpage_path(:user_id => current_user.id) %>
-<% end %>
+	</div>
+	<div class = "col2">
+	<% if current_user%>
+		<%= link_to "See all boards", boards_index_path %>
+	<% end %>
+	</div>
+</div>
+</div>
+<div class = "footer">
+	<% if current_user %>
+		<%= link_to "View my profile", ownpage_path(:user_id => current_user.id) %>
+		<%= button_to 'Logout', destroy_user_session_path, method: :delete %>
+	<% else %>
+		<%= button_to "Sign up for free", new_user_registration_path, method: :get %>
+		</br>
+		<%= button_to "Sign in", new_user_session_path %>
+	<% end %>
+</div>
+
+</body>

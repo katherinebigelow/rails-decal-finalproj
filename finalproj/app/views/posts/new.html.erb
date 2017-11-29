@@ -1,10 +1,14 @@
-<%= @current_board.name %>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<div id = "header">
+<h1 align = "center"><%= @current_board.name %></h1>
+</div>
 <%= simple_form_for @post, url: boards_show_path(id: @current_board, comment: params[:comment], parent_id: params[:parent_id]) do |f| %>
 <!-- some really jank shit here -->
-<% if params[:comment] == 'false'%>
-<%= f.input :title , label:'Your post title please' %>
-<% else %>
-<% end %>
-<%= f.input :content , label:'Your post content please', size: '60*12' %>
-<%= f.button :submit %>
+  <% if params[:comment] == 'false'%>
+    <%= f.input :title , label:'Post Title: ' %>
+  <% end %>
+  <%= f.input :content , label:'Content: ', size: '420*69' %>
+  <%= f.button :submit %>
+  <%= link_to "Cancel", home_path %>
 <% end %>

@@ -1,38 +1,51 @@
-<% @board = Board.find(@post.board_id) %>
-<%= link_to @board.name, boards_show_path(@board.id) %>
-<h3> <%= @post.title %> </h3>
-<%= @post.content %>
-<% @author = User.find(@post.user_id) %>
-<%= link_to @author.name, ownpage_path(:user_id => @author.id) %>
-</br>
-Likes: <%= @post.likes %>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
-<% if current_user %>
-	<!-- post.users signifies users who liked a post, so that they can't like the same post twice -->
-	<% if @post.users.include?(current_user) or @post.user_id = current_user.id %>
-	<% else %>
-		<%= button_to "Like", {controller: "posts", action: "like", id: @post.id}, :method => :patch %>
-	<% end %>
-<%= link_to "Reply", posts_new_path(comment: true, parent_id: @post.id, board: @post.board_id) %>
-<% end %>
-</br>
-<% @post.comments.each do |p| %>
-	<%= p.content %>
-	<% @cauthor = User.find(p.user_id) %>
-	<%= link_to @cauthor.name, ownpage_path(:user_id => @cauthor.id) %>
-	Likes: <%= p.likes %>
-	<% if current_user %>
-		<%= p.users.length %>
-		<!-- debug: for some reason user_id of post seems to change when you switch users, and posts can't be liked -->
-		<%= @post.user_id %>
-		<%= current_user.id %>
-		<% if p.users.include?(current_user) or @post.user_id = current_user.id %>
-		<% else %>
-			<%= button_to "Like", {controller: "posts", action: "like", id: p.id}, :method => :patch %>
-		<% end %>
-	<%= link_to "Reply", posts_new_path(comment: true, parent_id: p.id, board: p.board_id) %>
-	<% end %>
-</br>
+<body>
 
+<div id="header">
+	  <h1><% @board = Board.find(@post.board_id) %>
+		<%= link_to @board.name, boards_show_path(@board.id) %></h1>
+</div>
+<div class="colmask leftmenu">
+	<div class="colleft">
+		<div class="col1">
 
-<% end %>
+			<% if current_user %>
+				<!-- post.users signifies users who liked a post, so that they can't like the same post twice -->
+				<% if not(@post.users.include?(current_user) or @post.user_id = current_user.id) %>
+					<%= button_to "Like", {controller: "posts", action: "like", id: @post.id}, :method => :patch %>
+				<% end %>
+			<% end %>
+			<% @post.comments.each do |p| %>
+				<%= p.content %>
+				<% @cauthor = User.find(p.user_id) %>
+				<%= link_to @cauthor.name, ownpage_path(:user_id => @cauthor.id) %>
+				Likes: <%= p.likes %>
+				<% if current_user %>
+					<%= p.users.length %>
+					<!-- debug: for some reason user_id of post seems to change when you switch users, and posts can't be liked -->
+					<%= @post.user_id %>
+					<%= current_user.id %>
+					<% if not(p.users.include?(current_user) or @post.user_id = current_user.id) %>
+							<%= button_to "Like", {controller: "posts", action: "like", id: p.id}, :method => :patch %>
+					<% end %>
+					<hr>
+				<% end %>
+
+			<%= link_to "Add Comment", posts_new_path(comment: true, parent_id: @post.id, board: @post.board_id) %>
+			<% end %>
+
+		</div>
+		<div class="col2">
+
+				<h3> <%= @post.title %> </h3>
+				<%= @post.content %>
+				<% @author = User.find(@post.user_id) %>
+				<%= link_to @author.name, ownpage_path(:user_id => @author.id) %>
+				</br>
+				Likes: <%= @post.likes %>
+
+		</div>
+	</div>
+</div>
+</body>
