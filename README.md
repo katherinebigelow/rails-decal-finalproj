@@ -1,9 +1,11 @@
 #Title:
 Cool As Heck Messageboard
+
 #Team Members:
-Ryo Yamamoto, Jeffrey Liu, Katherine BIgelow
+Ryo Yamamoto, Jeffrey Liu, Katherine Bigelow
+
 #Demo Link:
- zzzz
+ https://photos.google.com/share/AF1QipP2U-CNZ8kmegXbAe64iXhhtVw0BHrpvjmnpoaHh5xcIyahbyUE_R30GF-WN4LDgA?key=MkY3NUoyOG9CMUhja0VxS3gzME0tdE1VLVFnRVJ3
 
 #Idea:
 Create a message board that tracks users’ contributions and uses achievements and leaderboards to promote interaction
